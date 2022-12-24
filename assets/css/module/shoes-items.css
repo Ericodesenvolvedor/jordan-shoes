@@ -1,0 +1,25 @@
+.shoes__items {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.shoes__item {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-4);
+    padding: 7.6rem 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .shoes__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shoes__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
