@@ -42,6 +42,10 @@ header h3 {
 } 
 
 @media screen and (max-width: 768px) {
+    .banner {
+        background-position: top;
+    }
+
     .banner__content {
         max-width: 35.7rem;
     }
